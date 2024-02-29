@@ -28,7 +28,7 @@ export const Hero = () => {
           that blend design and functionality seamlessly.
           </p>
           <h2 className={cn(styles.heroHeadText, "text-white lg:py-9 sm:py-6 mb-5")} >
-            Welcome to my<span className="text-[#915eff]">Portfolio</span>
+            Welcome to my <span className="text-[#915eff]">Portfolio</span>
           </h2>
         </div>
       </div>
