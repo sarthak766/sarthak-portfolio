@@ -23,7 +23,7 @@ export const Hero = () => {
           <h1 className={cn(styles.heroHeadText, "text-white")} >
             Hi, I'm <span className="text-[#915eff]">Sarthak</span>
           </h1>
-          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
+          <p className={cn(styles.heroSubText, "mt-6 text-white-100")}>
           I create smooth, user-friendly digital experiences <br className="sm:block hidden" />
           that blend design and functionality seamlessly.
           </p>
