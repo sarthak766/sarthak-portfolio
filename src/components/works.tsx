@@ -22,7 +22,7 @@ const ProjectCard = ({
   source_code_link,
   live_site_link,
 }: ProjectCardProps) => (
-  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} id="projects">
     <Tilt
       options={{
         max: 45,

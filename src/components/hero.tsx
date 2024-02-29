@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-
-import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
 
@@ -22,21 +20,22 @@ export const Hero = () => {
 
         {/* About Me */}
         <div>
-          <h1 className={cn(styles.heroHeadText, "text-white")}>
+          <h1 className={cn(styles.heroHeadText, "text-white")} >
             Hi, I'm <span className="text-[#915eff]">Sarthak</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
           I create smooth, user-friendly digital experiences <br className="sm:block hidden" />
           that blend design and functionality seamlessly.
           </p>
+          <h2 className={cn(styles.heroHeadText, "text-white lg:py-9 sm:py-6 mb-5")} >
+            Welcome to my<span className="text-[#915eff]">Portfolio</span>
+          </h2>
         </div>
       </div>
 
-      {/* Computer Model */}
-      <ComputersCanvas />
 
       {/* Scroll to about section */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -52,7 +51,7 @@ export const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
