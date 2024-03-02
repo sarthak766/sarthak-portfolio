@@ -261,8 +261,8 @@ export const PROJECTS = [
       },
     ],
     image: Footwear,
-    source_code_link: "https://github.com/sarthak766/Ecommerce-website",
-    live_site_link: "https://ecommerce-website-nine-bay.vercel.app/",
+    source_code_link: "https://github.com/sarthak766/Footwear-ecommerce",
+    live_site_link: "https://footwear-ecommerce-puce.vercel.app/",
   },
   {
     name: "Dance Academy Website",
