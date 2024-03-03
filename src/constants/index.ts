@@ -249,7 +249,7 @@ export const PROJECTS = [
   {
     name: "Ecommerce Website",
     description:
-      "I created a ecommerce site where users can add their favourite shoes to cart and search their brand according to brands",
+      "I developed an ecommerce platform enabling users to add favorite shoes to their cart and easily search by brand.",
     tags: [
       {
         name: "react-js",
@@ -260,7 +260,7 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
          {
-        name: "react-js",
+        name: "Redux-toolkit",
         color: "blue-text-gradient",
       },
     ],
