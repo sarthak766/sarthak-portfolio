@@ -249,15 +249,19 @@ export const PROJECTS = [
   {
     name: "Ecommerce Website",
     description:
-      "I created a footwear ecommerce site enabling advanced filtering by size, color, brand, and price for seamless user experience.",
+      "I created a ecommerce site where users can add their favourite shoes to cart and search their brand according to brands",
     tags: [
       {
         name: "react-js",
         color: "blue-text-gradient",
       },
       {
-        name: "Css",
+        name: " Tailwind Css",
         color: "green-text-gradient",
+      },
+         {
+        name: "react-js",
+        color: "blue-text-gradient",
       },
     ],
     image: Footwear,
