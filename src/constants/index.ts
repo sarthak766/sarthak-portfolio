@@ -95,10 +95,10 @@ export const TECHNOLOGIES = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+   {
+     name: "TypeScript",
+     icon: typescript,
+   },
   {
     name: "React JS",
     icon: reactjs,
@@ -149,13 +149,13 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "React-JS And Tailwind-CSS",
+    title: "React-JS,Typescript And Tailwind-CSS",
     company_name: "",
     icon: tesla,
     iconBg: "#ffffff",
     date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js,Typescript and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Proficient in using Tailwind CSS to rapidly style and design modern web interfaces.",
     ],
